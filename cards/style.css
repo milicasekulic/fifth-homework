@@ -1,0 +1,142 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+	margin: 10% auto 10%;
+	width: 80%;
+}
+
+article {
+    display: inline-block;
+    float: left;
+    width: 30.33%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.picture {
+    background: url(http://themes.esmeth.com/archtech/wp-content/uploads/sites/9/2016/11/blog-6-750x390.jpg) no-repeat;
+    background-size: cover;
+    background-position: top left;
+    height: 206px;
+}
+
+.picture:hover {
+    opacity: 0.8;
+    transition: 0.35s ease-in;
+}
+
+.text {
+    background: #fff;
+    color: #707070;
+    padding: 10%;
+}
+
+h1 {
+    color: #242424;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+h1:hover {
+    color: #fc8f39;
+    transition: 0.35s ease-in;
+   
+}
+
+span {
+    padding-right: 16px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+i.fa.fa-user-o {
+    margin-right: 5px;
+}
+
+i.fa.fa-calendar-o {
+    margin-right: 5px;
+}
+
+p {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #fc8f39;
+}
+
+a {
+    text-decoration: none;
+    color: #fc8f39;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #dd7522;
+    transition: 0.35s ease-in;
+}
+
+@media screen and (max-width: 1080px) {
+
+	.wrapper {
+    width: 80%;
+}
+
+article {
+    display: block;
+    float: none;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+.picture {
+    background: url(http://themes.esmeth.com/archtech/wp-content/uploads/sites/9/2016/11/blog-6-750x390.jpg) no-repeat;
+    background-size: cover;
+    background-position: top left;
+    height: 343px;
+}
+
+.links {
+    padding-bottom: 8px;
+}
+
+p {
+
+    padding-bottom: 13px;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+
+.wrapper {
+	width: 100%;
+    margin: 10% auto;
+}
+
+article {
+
+	float: none;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.text {
+    padding: 5%;
+}
+
+}
